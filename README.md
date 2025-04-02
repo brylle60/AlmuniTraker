@@ -16,3 +16,29 @@
             2. works
             3. year graduated
             4. personal info
+src/
+├── main/
+│   ├── java/
+│   │   └── com/AluminiTracker/
+│   │       ├── controllers/
+│   │       │   └── HomeController.java
+│   │       ├── models/
+│   │       │   └── User.java
+│   │       ├── repositories/
+│   │       │   └── UserRepository.java
+│   │       └── Application.java
+│   └── resources/
+│       ├── static/
+│       │   ├── css/
+│       │   │   └── main.css
+│       │   └── js/
+│       │       └── script.js
+│       ├── templates/
+│       │   ├── fragments/
+│       │   │   ├── header.html
+│       │   │   └── footer.html
+│       │   ├── home.html
+│       │   └── user/
+│       │       └── profile.html
+│       └── application.properties
+└── test/
